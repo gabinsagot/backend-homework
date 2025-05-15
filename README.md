@@ -9,5 +9,5 @@ Ouvrir le fichier en .html dans VSCode ou bien dans un navigateur devrait suffir
 - Ouvrir un terminal Git Bash, anisi qu'un terminal dans VSCode
 - Entrer la commande *uvicorn main:app —reload* dans le terminal VSCode
 - Entrer la commande *python -m http.server 8080* dans Git Bash
-- Entre le lien *http://localhost:8080/pixels-war.html* dans un navigateur 
+- Entrer le lien *http://localhost:8080/pixels-war.html* dans un navigateur 
 - Envahir le monde avec ses pixels.
