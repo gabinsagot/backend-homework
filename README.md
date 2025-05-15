@@ -3,6 +3,7 @@ Ce dépôt contient un projet réalisé dans le cadre du cours de backend d'ing�
 Il contient un projet de recréation du célèbre jeu "Pixel War", ainsi que la partie frontend du jeu "Wordle" conformément aux consignes. 
 
 **Wordle**
+
 Ouvrir le fichier en .html dans VSCode ou bien dans un navigateur devrait suffire
 
 **Pixels War**
@@ -11,3 +12,5 @@ Ouvrir le fichier en .html dans VSCode ou bien dans un navigateur devrait suffir
 - Entrer la commande *python -m http.server 8080* dans Git Bash
 - Entrer le lien *http://localhost:8080/pixels-war.html* dans un navigateur 
 - Envahir le monde avec ses pixels.
+
+NB : Pour une raison qui me dépasse, la carte n'apparaît pas. Elle apparaît pourtant bien dans le code de frontend présent dans le repository frontend-homework. La page http://localhost:8080/pixels-war.html existe pourtant bien !
