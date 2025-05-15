@@ -1,0 +1,23 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wordle - UE22 P24</title>
+  <link rel="stylesheet" href="wordle-style.css">
+</head>
+<body>
+  <h1>Wordle - UE22 P24</h1>
+  <div class="grille" id="grille"></div>
+  <div class="clavier" id="clavier"></div>
+  <script>
+    // Affiche le mot solution à des fins de test
+    document.addEventListener('DOMContentLoaded', function() {
+      if (typeof motSolution !== 'undefined') {
+        document.getElementById('mot-solution').textContent = 'Mot solution : ' + motSolution;
+      }
+    });
+  </script>
+  <p id="message"></p>
+  <button id="rejouer" onclick="demarrerJeu()">🔁 Rejouer</button>
+  <script src="wordle-script.js"></script>
+</body>
+</html>
