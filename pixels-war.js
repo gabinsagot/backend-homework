@@ -1,5 +1,5 @@
 // Pixel War
-const PIXEL_URL = "http://localhost:8080";
+const PIXEL_URL = "http://localhost:8000";
 const MAP_ID = "0000";
 let matrice = [];
 
